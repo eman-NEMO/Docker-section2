@@ -1,0 +1,24 @@
+version: '3'
+services:
+  my-app:
+    build: .
+    container_name: my-app-container
+    volumes:
+      - ./data:/app/data 
+    working_dir: /app
+    command: python app.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
